@@ -7,8 +7,9 @@ Make sure to install moviepy first
 pip install moviepy
 ```
 
-You need to pass in three arguments the path for the video files,
-start second and stop seconds to cut the videos
+You need to provide three arguments for the script
+to work properly. The path for the video files,
+start and stop seconds to cut from each video clip.
 
 example:
 ```
