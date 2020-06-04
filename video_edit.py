@@ -41,8 +41,12 @@ def concat():
     # Create the output file in the same directory
     final_clip.write_videofile(vid_path + 'output.mp4')
 
-# call the functions synchronously 
-rename()  
-cut()
-concat()
-                       
+# Function to run all other functions 
+def run():
+    rename()  
+    cut()
+    concat()
+                                                                        
+
+if __name__ == '__main__':
+    run()
